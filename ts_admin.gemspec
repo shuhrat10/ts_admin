@@ -22,6 +22,6 @@ Gem::Specification.new do |s|
   s.add_dependency(%q<haml>, [">= 0"])
   s.add_dependency(%q<inherited_resources>, [">= 0"])
   s.add_dependency(%q<jquery-rails>)
-  s.add_dependency(%q<ts_login>, [">= 0"])
+  # s.add_dependency(%q<ts_login>, [">= 0"])
 
 end
