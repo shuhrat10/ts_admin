@@ -2,3 +2,13 @@
 .bundle
 Gemfile.lock
 pkg/*
+
+*.log
+.sass-cache/
+tmp/
+psd/
+log/*.log
+db/schema.rb
+public/assets/
+public/system/*
+.DS_Store
