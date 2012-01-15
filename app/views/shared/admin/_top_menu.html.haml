@@ -1,0 +1,10 @@
+#menu
+  %ul#menu_group_folders.group
+    %li#menu_item_starred_folder.item.middle.first
+      %a.main{:href=> "/admin/documents"}
+        %span.outer
+          %span.inner{:style => "background-image: url(#{asset_path 'admin/icon/library.png'})"} Libraries
+    %li#menu_item_quick_add.item.last
+      %a.main{:href => "/admin/general_settings"}
+        %span.outer
+          %span.inner{:style => "background-image: url(#{asset_path 'admin/icon/projects.gif'})"} Configuration
